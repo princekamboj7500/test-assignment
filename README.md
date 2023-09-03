@@ -15,6 +15,12 @@ In this part, you will update a React application.
     - UI components: Create the necessary UI components as described in the file.
     - Data Fetching: Fetch the data from the provided API endpoint and display it in the UI components.
     - Duplicate functionality: Implement the functionality of the 'Duplicate Template' button. When this button is clicked, a new template with the same content as the selected template should be created.
+  
+7. This is what the final result should look like
+
+
+https://github.com/kzitouni/test-assignment/assets/45524856/7fd83491-7720-402f-8bef-b9885dd3ed0e
+
 
 ## Part 2: Vanilla JavaScript
 In this part, you will create a basic A/B testing logic using vanilla JavaScript.
