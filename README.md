@@ -45,7 +45,3 @@ In this part, you will create a basic A/B testing logic using vanilla JavaScript
 - Do not install any additional packages.
 
 Good luck!
-
----
-
-You can modify this README file according to your requirements. Additionally, you can also add more instructions in the `script_instructions.md` file for the second part of the assessment.
