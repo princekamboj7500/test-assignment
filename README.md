@@ -10,13 +10,14 @@ In this part, you will update a React application.
 2. Local development is powered by [the Shopify CLI](https://shopify.dev/docs/apps/tools/cli). It logs into your partners account, connects to an app, provides environment variables, updates remote config, creates a tunnel and provides commands to generate extensions.
 3. Install the dependencies by running `npm install`.
 4. Start the development server by running `npm run dev`.
-5. Open the file `app/routes/app._index.jsx`.
-6. Implement the following functionalities:
+5. Connect your Shopify Partners account and then select 'Yes, create it as a new app' then type any App Name then select your Store and then select 'Yes, automatically update' then click 'p' in the terminal and install the app
+6. Open the file `app/routes/app._index.jsx`.
+7. Implement the following functionalities:
     - UI components: Create the necessary UI components as described in the file.
     - Data Fetching: Fetch the data from the provided API endpoint and display it in the UI components.
     - Duplicate functionality: Implement the functionality of the 'Duplicate Template' button. When this button is clicked, a new template with the same content as the selected template should be created.
   
-7. This is what the final result should look like
+8. This is what the final result should look like
 
 
 https://github.com/kzitouni/test-assignment/assets/45524856/7fd83491-7720-402f-8bef-b9885dd3ed0e
