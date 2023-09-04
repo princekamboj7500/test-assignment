@@ -32,6 +32,33 @@ Your task is to create a basic A/B testing logic using vanilla JavaScript.
 
 <script>
 
-// ********Write your script file here ********
+// Function to retrieve the value of a cookie by its name
+function getCookie(cookieName) {
+  const name = cookieName + "=";
+  const decodedCookie = decodeURIComponent(document.cookie);
+  const cookieArray = decodedCookie.split(';');
+  for (let i = 0; i < cookieArray.length; i++) {
+    let cookie = cookieArray[i];
+    while (cookie.charAt(0) === ' ') {
+      cookie = cookie.substring(1);
+    }
+    if (cookie.indexOf(name) === 0) {
+      return cookie.substring(name.length, cookie.length);
+    }
+  }
+  return "";
+}
+
+// Check if the homepage redirect cookie exists and has the value '1'
+const homepageRedirectCookieValue = getCookie("homepageredirect");
+
+// Check if the current URL is the homepage (you can adjust this condition)
+const isHomepage = window.location.pathname === "/";
+
+if (isHomepage && homepageRedirectCookieValue === "1") {
+  // Redirect the user to the A/B test homepage
+  window.location.href = "/pages/homepagetest";
+}
+
 
 </script>
